@@ -2,7 +2,7 @@
 /* CSS Document */
 
 #firstBlock, #secondBlock, #thirdBlock, #forth4Block {
-border:1px solid black;
+border:0.1px solid black;
 }
 
 @media screen and (max-device-width: 80mm) and (orientation: portrait) {
@@ -29,13 +29,13 @@ border:1px solid black;
 		margin-left: 20%;
 		width: 30%;
 		float: left;
-		border:0.5px solid black;
+		border:0.05px solid black;
 
 	}
 
 	#forth4Block{
 		background: #E9DFFF;
-		border:0.5px solid black;
+		border:0.05px solid black;
 		width: 30%;
 		float: left;
 		
@@ -67,12 +67,12 @@ border:1px solid black;
 		margin-left: 20%;
 		width: 30%;
 		float: left;
-		border:0.5px solid black;
+		border:0.05px solid black;
 	}
 
 	#forth4Block{
 		background: #E9DFFF;
-		border:0.5px solid black;
+		border:0.05px solid black;
 		width: 30%;
 		float: left;
 		
@@ -104,12 +104,12 @@ border:1px solid black;
 		margin-left: 20%;
 		width: 30%;
 		float: left;
-		border:0.5px solid black;
+		border:0.05px solid black;
 	}
 
 	#forth4Block{
 		background: #E9DFFF;
-		border:0.5px solid black;
+		border:0.05px solid black;
 		width: 30%;
 		float: left;
 		
@@ -141,12 +141,12 @@ border:1px solid black;
 		margin-left: 20%;
 		width: 30%;
 		float: left;
-		border:0.5px solid black;
+		border:0.05px solid black;
 	}
 
 	#forth4Block{
 		background: #E9DFFF;
-		border:0.5px solid black;
+		border:0.05px solid black;
 		width: 30%;
 		float: left;
 		
