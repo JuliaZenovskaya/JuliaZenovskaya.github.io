@@ -2,7 +2,7 @@
 /* CSS Document */
 
 #firstBlock, #secondBlock, #thirdBlock, #forth4Block {
-
+border:1px solid black;
 }
 
 @media screen and (max-device-width: 80mm) and (orientation: portrait) {
