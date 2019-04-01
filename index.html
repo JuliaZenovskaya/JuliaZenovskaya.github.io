@@ -4,15 +4,30 @@
 	<meta charset="utf-8">	
 	<title>firstLab</title>
 	<style>
-		.firstBlock{
+		
+		@media screen and (max-device-width: 800px) {
+			.firstBlock{
 				background: #D79394;
 				text-align: center;
-
+				display: block;	
+				position: relative;
+				left: 10%;
+				right: 10%;
+				top: 0%;
+				height: 25%;
+				width: 80%;
 			}
 
 			.secondBlock{
 				background: #9FEBEC;
 				text-align: center;
+				display: block;	
+				position: relative;
+				left: 10%;
+				right: 10%;
+				top: 25%;
+				height: 25%;
+				width: 80%;
 
 
 			}
@@ -20,65 +35,82 @@
 			.thirdBlock{
 				background: #DAED94;
 				text-align: center;
+				display: block;	
+				position: relative;
+				left: 10%;
+				right: 10%;
+				top: 50%;
+				height: 25%;
+				width: 80%;
 
 			}
 
 			.forthBlock{
 				background: #93E890;
 				text-align: center;
-
-			}
-		@media max-device-width: 1200px {
-			firstBlock {
+				display: block;	
+				position: absolute;
 				left: 10%;
-				right: 10%
-				top: 0%;
-				height: 25%;
-			}
-			secondBlock {
-				left: 10%;
-				right: 10%
-				top: 25%;
-				height: 25%;
-			}
-			thirdBlock {
-				left: 10%;
-				right: 10%
-				top: 50%;
-				height: 25%;
-			}
-			forthBlock {
-				left: 10%;
-				right: 10%
+				right: 10%;
 				top: 75%;
 				height: 25%;
+				width: 80%;
+
 			}
 		}
 		
-		@media min-device-width: 1400px {
-			firstBlock {
+		@media screen and (min-device-width: 800px) {
+			.firstBlock{
+				background: #D79394;
+				text-align: center;
+				display: block;	
+				position: absolute;
 				left: 10%;
-				right: 10%
+				right: 10%;
 				top: 0%;
 				height: 25%;
+				width: 80%;;
 			}
-			secondBlock {
+
+			.secondBlock{
+				background: #9FEBEC;
+				text-align: center;
+				display: block;	
+				position: absolute;
 				left: 10%;
-				right: 10%
+				right: 10%;
 				top: 25%;
 				height: 25%;
+				width: 80%;
+
+
 			}
-			thirdBlock {
+
+			.thirdBlock{
+				background: #DAED94;
+				text-align: center;
+				display: block;	
+				position: absolute;
 				left: 10%;
-				right: 10%
+				right: 50%;
 				top: 50%;
 				height: 50%;
+				width: 40%;
+				
+
 			}
-			forthBlock {
-				left: 10%;
-				right: 10%
+
+			.forthBlock{
+				background: #93E890;
+				text-align: center;
+				display: block;	
+				position: absolute;
+				left: 50%;
+				right: 10%;
 				top: 50%;
 				height: 50%;
+				width: 40%;
+
 			}
 		}
 	</style>
