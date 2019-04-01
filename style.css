@@ -1,17 +1,15 @@
 @charset "utf-8";
 /* CSS Document */
 
+#firstBlock, #secondBlock, #thirdBlock, #forth4Block {
+border:1px solid black;
+}
 
 @media screen and (max-device-width: 80mm) and (orientation: portrait) {
 	.firstBlock{
 		background: #7535FB;
-		text-align: center;
-		display: block;	
-		position: absolute;
-		left: 5%;
-		right: 5%;
-		top: 0%;
-		height: 25%;
+		margin-left: 5%;
+		margin-right:  right: 5%;
 		width: 90%;
 	};
 
@@ -152,59 +150,42 @@
 	}
 }
 		
-@media screen and (min-device-width: 200mm) {
-	.firstBlock{
+@media all {
+	#firstBlock{
+		border:1px solid black;
 		background: #7535FB;
-		text-align: center;
-		display: block;	
-		position: absolute;
-		left: 20%;
-		right: 20%;
-		top: 0%;
+		margin-left: 20%;
+		margin-right: 20%;
 		width: 60%;
-		height: 25%;
 	}
 	
-	.secondBlock{
+	#secondBlock{
 		background: #A377FF;
-		text-align: center;
-		display: block;	
-		position: absolute;
-		left: 20%;
-		right: 20%;
-		top: 25%;	
-		height: 25%;
+		margin-left: 20%;
+		margin-right: 20%;
 		width: 60%;
+		
 	}
 	
-	.thirdBlock{
+	#thirdBlock{
 		background: #D1BBFF;
-		text-align: left;
-		display: block;	
-		position: absolute;
-		left: 20%;
-		right: 50%;
-		top: 50%;
-		height: 50%;
+		margin-left: 20%;
 		width: 30%;
+		float: left;
+
 	}
 
-	.forthBlock{
+	#forth4Block{
 		background: #E9DFFF;
-		text-align: left;
-		display: block;	
-		position: absolute;
-		left: 50%;
-		right: 20%;
-		top: 50%;
-		height: 50%;
+
 		width: 30%;
+		float: left;
+		
+	
 	}			
 }
 
-.first {
-	font-size: 200%;
-	margin-top: 3%;
-	margin-bottom: 3%;
-}
+
 		
+
+
