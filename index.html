@@ -5,99 +5,84 @@
 	<title>firstLab</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<style>
-		@media handheld {
-			.firstBlock{
+		.firstBlock{
 				display: block;
 				position: fixed;
 				background: #8BB0E9;
-				left: 10%;
-				right: 10%;
 				text-align: center;
-				height: 20%;
-				top: 0%
-
 			}
 
 			.secondBlock{
 				display: block;
 				position: fixed;
 				background: #E04649;
-				left: 10%;
-				right: 10%;
 				text-align: center;
-				height: 10%;
-				top: 20%;
-
 			}
 
 			.thirdBlock{
 				display: block;
 				position: fixed;
 				background: #430C0D;
-				left: 10%;
-				right: 10%;
 				text-align: center;
-				height: 10%;
-				top: 30%;
 			}
 
 			.forthBlock{
 				display: block;
 				position: fixed;
 				background: #6B4444;
+				text-align: center;
+			}
+		@media handheld {
+			firstBlock {
 				left: 10%;
 				right: 10%;
-				text-align: center;
-				height: 10%;
+				height: 20%;
+				top: 0%;
+			}	
+			secondBlock {
+				left: 10%;
+				right: 10%;
+				height: 20%;
+				top: 20%;
+			}
+			thirdBlock {
+				left: 10%;
+				right: 10%;
+				height: 20%;
 				top: 40%;
+			}
+			forthBlock{
+				left: 10%;
+				right: 10%;
+				height: 40%;
+				top: 60%;
 			}
 		}
 		
 		@media not handheld {
-			.firstBlock{
-				display: block;
-				position: fixed;
-				background: #8BB0E9;
+			firstBlock {
 				left: 10%;
 				right: 10%;
-				text-align: center;
 				height: 20%;
-				top: 0%
-
-			}
-
-			.secondBlock{
-				display: block;
-				position: fixed;
-				background: #E04649;
+				top: 0%;
+			}	
+			secondBlock {
 				left: 10%;
 				right: 10%;
-				text-align: center;
-				height: 10%;
+				height: 20%;
 				top: 20%;
-
 			}
-
-			.thirdBlock{
-				display: block;
-				position: fixed;
-				background: #430C0D;
+			thirdBlock {
 				left: 10%;
 				right: 50%;
-				text-align: center;
-				height: 10%;
-				top: 30%;
+				height: 40%;
+				top: 40%;
 			}
-
-			.forthBlock{
-				display: block;
-				position: fixed;
-				background: #6B4444;
+			forthBlock{
 				left: 50%;
 				right: 10%;
-				text-align: center;
-				height: 10%;
-				top: 30%;
+				height: 40%;
+				top: 40%;
 			}
 		}
 	</style>
