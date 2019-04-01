@@ -2,13 +2,13 @@
 /* CSS Document */
 
 #firstBlock, #secondBlock, #thirdBlock, #forth4Block {
-border:1px solid black;
+
 }
 
 @media screen and (max-device-width: 80mm) and (orientation: portrait) {
 	#firstBlock{
 		text-align: center;
-		border:1px solid black;
+
 		background: #7535FB;
 		margin-left: 20%;
 		margin-right: 20%;
@@ -145,7 +145,7 @@ border:1px solid black;
 @media screen and (min-device-width: 200mm) {
 	#firstBlock{
 		text-align: center;
-		border:1px solid black;
+
 		background: #7535FB;
 		margin-left: 20%;
 		margin-right: 20%;
