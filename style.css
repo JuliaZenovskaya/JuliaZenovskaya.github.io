@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@media screen and (max-device-width: 80mm) and (orientation: portrait) {
+	.firstBlock{
+		background: #7535FB;
+		text-align: center;
+		display: block;	
+		position: absolute;
+		left: 5%;
+		right: 5%;
+		top: 0%;
+		height: 25%;
+		width: 90%;
+	};
+
+	.secondBlock{
+		background: #A377FF;
+		text-align: center;
+		display: block;	
+		position: absolute;
+		left: 5%;
+		right: 5%;
+		top: 25%;
+		height: 25%;
+		width: 90%;
+	}
+
+	.thirdBlock{
+		background: #D1BBFF;
+		text-align: left;
+		display: block;	
+		position: absolute;
+		left: 5%;
+		right: 5%;
+		top: 50%;
+		height: 25%;
+		width: 90%;
+	}
+
+	.forthBlock{
+		background: #E9DFFF;
+		text-align: left;
+		display: block;	
+		position: absolute;
+		right: 5%;
+		top: 75%;
+		height: 25%;
+		width: 90%;
+		left: 5%;
+	}
+}
+		
+@media screen and (max-device-width: 160mm) and (orientation: portrait) and (min-device-width: 80mm){
+	.firstBlock{
+		background: #7535FB;
+		text-align: center;
+		display: block;	
+		position: absolute;
+		left: 10%;
+		right: 10%;
+		top: 0%;
+		height: 25%;
+		width: 80%;
+	}
+
+	.secondBlock{
+		background: #A377FF;
+		text-align: center;
+		display: block;	
+		position: absolute;
+		left: 10%;
+		right: 10%;
+		top: 25%;
+		height: 25%;
+		width: 80%;
+	}
+
+	.thirdBlock{
+		background: #D1BBFF;
+		text-align: left;
+		display: block;	
+		position: absolute;
+		left: 10%;
+		right: 10%;
+		top: 50%;
+		height: 25%;
+		width: 80%;
+	}
+
+	.forthBlock{
+		background: #E9DFFF;
+		text-align: left;
+		display: block;	
+		position: absolute;
+		left: 10%;
+		right: 10%;
+		top: 75%;
+		height: 25%;
+		width: 80%;
+	}
+}
+		
+@media screen and (max-device-width: 200mm) and (orientation: landscape) {
+	.firstBlock{
+		background: #7535FB;
+		text-align: center;
+		display: block;	
+		position: absolute;
+		left: 10%;
+		right: 50%;
+		top: 0%;
+		height: 50%;
+		width: 40%;
+	}
+
+	.secondBlock{
+		background: #A377FF;
+		text-align: center;
+		display: block;	
+		position: absolute;
+		left: 50%;
+		right: 10%;
+		top: 0%;
+		height: 50%;
+		width: 40%;
+	}
+
+	.thirdBlock{
+		background: #D1BBFF;
+		text-align: left;
+		display: block;	
+		position: absolute;
+		left: 10%;
+		right: 50%;
+		top: 50%;
+		height: 50%;
+		width: 40%;
+	}
+
+	.forthBlock{
+		background: #E9DFFF;
+		text-align: left;
+		display: block;	
+		position: absolute;
+		left: 50%;
+		right: 10%;
+		top: 50%;
+		height: 50%;
+		width: 40%;
+	}
+}
+		
+@media screen and (min-device-width: 200mm) {
+	.firstBlock{
+		background: #7535FB;
+		text-align: center;
+		display: block;	
+		position: absolute;
+		left: 20%;
+		right: 20%;
+		top: 0%;
+		width: 60%;
+		height: 25%;
+	}
+	
+	.secondBlock{
+		background: #A377FF;
+		text-align: center;
+		display: block;	
+		position: absolute;
+		left: 20%;
+		right: 20%;
+		top: 25%;	
+		height: 25%;
+		width: 60%;
+	}
+	
+	.thirdBlock{
+		background: #D1BBFF;
+		text-align: left;
+		display: block;	
+		position: absolute;
+		left: 20%;
+		right: 50%;
+		top: 50%;
+		height: 50%;
+		width: 30%;
+	}
+
+	.forthBlock{
+		background: #E9DFFF;
+		text-align: left;
+		display: block;	
+		position: absolute;
+		left: 50%;
+		right: 20%;
+		top: 50%;
+		height: 50%;
+		width: 30%;
+	}			
+}
+
+.first {
+	font-size: 200%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+		
