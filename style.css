@@ -29,6 +29,7 @@ border:0.1px solid black;
 		margin-left: 5%;
 		margin-right: 5%;
 		width: 90%;
+		height: 280px;
 
 	}
 
@@ -37,6 +38,7 @@ border:0.1px solid black;
 		margin-left: 5%;
 		margin-right: 5%;
 		width: 90%;
+		height: 280px;
 
 	}			
 }
@@ -49,6 +51,7 @@ border:0.1px solid black;
 		margin-left: 5%;
 		margin-right: 5%;
 		width: 90%;
+		
 	}
 	
 	#secondBlock{
@@ -65,7 +68,7 @@ border:0.1px solid black;
 		margin-left: 5%;
 		margin-right: 5%;
 		width: 90%;
-
+height: 280px;
 	}
 
 	#forth4Block{
@@ -73,7 +76,7 @@ border:0.1px solid black;
 		margin-left: 5%;
 		margin-right: 5%;
 		width: 90%;
-
+height: 280px;
 	}			
 }
 		
@@ -146,7 +149,7 @@ border:0.1px solid black;
 		background: #E9DFFF;
 		border:0.05px solid black;
 		width: 30%;
-		height: 280px;;
+		height: 280px;
 		float: left;
 		
 	
