@@ -138,6 +138,7 @@ border:0.1px solid black;
 		margin-left: 20%;
 		width: 30%;
 		float: left;
+		height: 280px;
 		border:0.05px solid black;
 	}
 
@@ -145,6 +146,7 @@ border:0.1px solid black;
 		background: #E9DFFF;
 		border:0.05px solid black;
 		width: 30%;
+		height: 280px;;
 		float: left;
 		
 	
