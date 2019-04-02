@@ -132,7 +132,7 @@ border:0.1px solid black;
 		margin-left: 0%;
 		width: 50%;
 		float: left;
-		height: 800px;
+		height: 600px;
 		border:0.05px solid black;
 	}
 
@@ -140,7 +140,7 @@ border:0.1px solid black;
 		background: #D1BBFF;
 		border:0.05px solid black;
 		width: 50%;
-		height: 800px;
+		height: 600px;
 		float: left;
 	}						
 }
@@ -169,7 +169,7 @@ border:0.1px solid black;
 		margin-left: 10%;
 		width: 40%;
 		float: left;
-		height: 800px;
+		height: 600px;
 		border:0.05px solid black;
 	}
 
@@ -177,7 +177,7 @@ border:0.1px solid black;
 		background: #D1BBFF;
 		border:0.05px solid black;
 		width: 40%;
-		height: 800px;
+		height: 600px;
 		float: left;
 	}					
 }
