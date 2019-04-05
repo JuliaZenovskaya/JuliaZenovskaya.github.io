@@ -73,7 +73,7 @@ border:0.1px solid black;
 	}			
 }
 		
-@media screen and (max-device-width: 1600px) and (orientation: portrait) and (min-device-width: 80mm){
+@media screen and (max-device-width: 1600px) and (orientation: portrait) and (min-device-width: 800px){
 	#firstBlock{
 		text-align: center;
 		vertical-align: middle;
