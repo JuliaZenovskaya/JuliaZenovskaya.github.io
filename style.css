@@ -113,24 +113,24 @@ border:0.1px solid black;
 		text-align: center;
 		vertical-align: middle;
 		background: #7535FB;
-		margin-left: 0%;
-		margin-right: 0%;
-		width: 100%;
+		margin-left: 1%;
+		margin-right: 1%;
+		width: 98%;
 	}
 	
 	#secondBlock{
 		text-align: center;
 		background: #A377FF;
-		margin-left: 0%;
-		margin-right: 0%;
-		width: 100%;
+		margin-left: 1%;
+		margin-right: 1%;
+		width: 98%;
 		vertical-align: middle;
 	}
 	
 	#thirdBlock{
 		background: #D1BBFF;
-		margin-left: 0%;
-		width: 50%;
+		margin-left: 1%;
+		width: 49%;
 		float: left;
 		height: 400px;
 		border:0.05px solid black;
@@ -139,7 +139,7 @@ border:0.1px solid black;
 	#forth4Block{
 		background: #D1BBFF;
 		border:0.05px solid black;
-		width: 50%;
+		width: 49%;
 		height: 400px;
 		float: left;
 	}						
