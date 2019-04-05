@@ -73,7 +73,7 @@ border:0.1px solid black;
 	}			
 }
 		
-@media screen and (max-width: 1600px) and (orientation: portrait) and (min-width: 800px){
+@media screen and (orientation: portrait) and (min-width: 800px){
 	#firstBlock{
 		text-align: center;
 		vertical-align: middle;
