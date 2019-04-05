@@ -39,7 +39,7 @@ border:0.1px solid black;
 	}			
 }
 
-@media screen and (max-device-width: 800px) and (min-device-width:600px) and (orientation: portrait) {
+@media screen and (max-width: 800px) and (min-width:600px) and (orientation: portrait) {
 	#firstBlock{
 		text-align: center;
 		vertical-align: middle;
@@ -73,7 +73,7 @@ border:0.1px solid black;
 	}			
 }
 		
-@media screen and (max-device-width: 1600px) and (orientation: portrait) and (min-device-width: 800px){
+@media screen and (max-width: 1600px) and (orientation: portrait) and (min-width: 800px){
 	#firstBlock{
 		text-align: center;
 		vertical-align: middle;
@@ -108,7 +108,7 @@ border:0.1px solid black;
 	}			
 }
 		
-@media screen and (max-device-width: 1300dx) and (orientation: landscape) {
+@media screen and (max-width: 1300dx) and (orientation: landscape) {
 	#firstBlock{
 		text-align: center;
 		vertical-align: middle;
@@ -145,7 +145,7 @@ border:0.1px solid black;
 	}						
 }
 
-@media screen and (min-device-width: 1300px) and (max-device-width: 1800px) and (orientation: landscape) {
+@media screen and (min-width: 1300px) and (max-width: 1800px) and (orientation: landscape) {
 	#firstBlock{
 		text-align: center;
 		vertical-align: middle;
